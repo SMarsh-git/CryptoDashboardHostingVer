@@ -1,0 +1,37 @@
+.ProfileDiv {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2%;
+    background-image: linear-gradient(to right, rgba(174, 0, 255, 0.582), rgba(174, 0, 255, 0.164),rgba(174, 0, 255, 0.068));
+    border: 2px solid rgb(209, 2, 250);
+    border-radius: 10px;
+    padding: 8px;
+    margin-bottom: 2%;
+}
+
+.ProfileModal {
+    background-image: linear-gradient(to bottom right, rgba(174, 0, 255, 0.432), rgba(174, 0, 255, 0.692),rgba(174, 0, 255, 0.26));
+    border: 2px rgb(212, 0, 255) solid;
+    border-radius: 20px;
+    color: rgb(252, 252, 252);
+    padding: 24px;
+}
+
+.Username{
+    margin: 20px;
+    color: rgb(252, 248, 248);
+    font-size: 20px;
+}
+
+.Email {
+    margin-top: 20px;
+    color: rgb(252, 248, 248);
+    font-size: 20px;
+}
+
+.title{
+    margin-bottom: 6px;
+    font-size: 24px;
+    color: white;
+    text-align: center;
+}

@@ -1,0 +1,35 @@
+.select-button {
+  border: none;
+  width: 100%;
+  margin: 0 12px;
+  border-radius: 8px;
+  padding: 6px 20px;
+  background-image: linear-gradient(to bottom, rgba(174, 0, 255, 0.307),rgba(174, 0, 255, 0.068));
+  cursor: pointer;
+  font-weight: 300;
+}
+
+
+.select-button:hover{
+  background-color: rgb(243, 2, 183);
+  transition: background-color 1s ease;
+}
+
+/* 
+selectbutton: {
+    border: "1px solid rgba(110,37,148)",
+    borderRadius: 5,
+    padding: 10,
+    paddingLeft: 20,
+    paddingRight: 20,
+    fontFamily: "Montserrat",
+    cursor: "pointer",
+    backgroundColor: selected ? "rgba(110,37,148)" : "",
+    color: selected ? "rgb(192,192,192)" : "",
+    fontWeight: selected ? 700 : 500,
+    "&:hover": {
+      backgroundColor: "rgba(110,37,148)",
+      color: "rgba(192,192,192)",
+    },
+    width: "22%",
+    //   margin: 5, */

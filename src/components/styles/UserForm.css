@@ -1,0 +1,68 @@
+
+.LoginPage {
+    display: flex;
+    flex-direction: row;
+    margin-left: 23%;
+    height: 50vh;
+    width: 50vw;
+    border: 2px rgb(162, 0, 255) solid; 
+    margin-bottom: 3%;
+    border-radius: 20px;
+    background-image: linear-gradient(to right,  rgba(174, 0, 255, 0.068), rgba(174, 0, 255, 0.164),rgba(174, 0, 255, 0.068));
+}
+
+.LoginLogo {
+    display: flex;
+    height: 97%;
+    width: 97%;
+    border-radius: 100%;
+    margin-top: 2%;
+    margin-left: 15%;
+}
+
+.LoginText {
+    text-align: center;
+    font-family: 'Bebas Neue';
+    margin-top: 15%;
+    font-size: 140%;
+    /* border: 2px yellow solid; */
+}
+
+.LoginBox {
+    margin-left: 17%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    border: 1px rgb(247, 0, 255) solid;
+    border-radius: 20px;
+    background-image: linear-gradient(to left,  rgba(16, 1, 51, 0.466), rgba(58, 4, 119, 0.164),rgba(16, 1, 51, 0.466));
+    align-items: center;
+    justify-content: center;
+}
+
+.LoginBoxes {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(184, 4, 255, 0.24);
+    border-radius: 20px;
+    margin: 20px 20px;
+    border: none;
+    text-align: center;
+}
+
+.LoginBoxes:hover {
+    background-color: rgba(2, 102, 252, 0.404);
+    color: rgb(255, 255, 255);
+    transition: 2s;
+}
+
+.SubmitBtn {
+    margin-left: 37.5%;
+    background-color: rgba(184, 4, 255, 0.24);
+    color: white;
+    border: none;
+}
+
+.SubmitBtn:hover {
+    background-color: rgba(255, 4, 213, 0.308);
+    transition: 2s;
+}

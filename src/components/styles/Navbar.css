@@ -1,0 +1,90 @@
+.Navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-bottom: rgba(94, 1, 180, 0.459) 2px solid;
+  background-image: linear-gradient(to right, rgba(174, 0, 255, 0.068), rgba(174, 0, 255, 0.164),rgba(174, 0, 255, 0.068));
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;  
+  justify-content: space-between;
+
+}
+
+ .Logo {
+  width: 90px;
+  height: 90px;  
+  border-radius: 100%;
+  color: rgb rgb(255, 0, 200);
+}
+
+.buttons {
+  font-size: 40px;
+  color: rgba(250, 7, 250, 0.959);
+  border: none;
+  background-color: rgba(174, 0, 255, 0);
+  margin: 0 1vw;
+  cursor: pointer;
+}
+
+.buttons:hover{
+  color: rgb(2, 102, 252);
+  transition: 1s ease-in;
+}
+
+/* .button1 {
+  font-size: 45px;
+  color: rgba(230, 7, 250, 0.959);
+  border: none;
+  background-color: rgba(174, 0, 255, 0);
+  margin: 0 1vw;
+  position: absolute;
+  right: 18%;
+  top: 3%;
+} */
+
+.navLeft{
+  /* border: solid red 3px; */
+  margin-left: 1vw;
+
+}
+
+.navMiddle{
+  /* border: solid red 3px; */
+  margin-left: 10vw;
+}
+.navRight{
+  /* border: solid red 3px; */
+  margin-right: 1vw;
+}
+
+
+/* 
+@media only screen and (max-width: 768px) { 
+   For mobile phones:  
+  .Navbar {
+
+
+    border: rgba(56, 4, 104, 0.74) 3px solid;
+    border-radius: 50px;
+    background-color: hsl(261, 94%, 13%);
+    position: sticky; 
+     justify-content: center; 
+  }
+  
+  .Logo {
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+    width: 50px;
+    height: 50px;  
+    
+  }
+  
+  .buttons {
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+    font-size: 35px;
+    color: rgba(250, 7, 250, 0.74);
+    border: none;
+    background-color: #17023f;
+  }
+}  */
